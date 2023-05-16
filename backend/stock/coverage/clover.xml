@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1683166105138" clover="3.2.0">
+  <project timestamp="1683166105138" name="All files">
+    <metrics statements="170" coveredstatements="167" conditionals="28" coveredconditionals="26" methods="54" coveredmethods="53" elements="252" coveredelements="246" complexity="0" loc="170" ncloc="170" packages="7" files="19" classes="19"/>
+    <package name="application.usecase">
+      <metrics statements="47" coveredstatements="47" conditionals="6" coveredconditionals="6" methods="8" coveredmethods="8"/>
+      <file name="Checkout.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\application\usecase\Checkout.ts">
+        <metrics statements="28" coveredstatements="28" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="17" type="stmt"/>
+        <line num="17" count="17" type="stmt"/>
+        <line num="18" count="17" type="stmt"/>
+        <line num="19" count="17" type="stmt"/>
+        <line num="24" count="17" type="stmt"/>
+        <line num="25" count="17" type="stmt"/>
+        <line num="26" count="17" type="stmt"/>
+        <line num="27" count="17" type="stmt"/>
+        <line num="28" count="17" type="stmt"/>
+        <line num="29" count="16" type="stmt"/>
+        <line num="30" count="16" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="16" type="stmt"/>
+        <line num="32" count="30" type="stmt"/>
+        <line num="33" count="29" type="stmt"/>
+        <line num="34" count="27" type="stmt"/>
+        <line num="35" count="27" type="stmt"/>
+        <line num="39" count="13" type="cond" truecount="3" falsecount="0"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="42" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="46" count="13" type="stmt"/>
+        <line num="47" count="13" type="stmt"/>
+        <line num="48" count="13" type="stmt"/>
+      </file>
+      <file name="GetOrder.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\application\usecase\GetOrder.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="15" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+      </file>
+      <file name="SimulateFreight.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\application\usecase\SimulateFreight.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+      <file name="ValidateCoupon.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\application\usecase\ValidateCoupon.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="domain.entity">
+      <metrics statements="63" coveredstatements="63" conditionals="21" coveredconditionals="20" methods="24" coveredmethods="24"/>
+      <file name="Coupon.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\domain\entity\Coupon.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+      </file>
+      <file name="Cpf.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\domain\entity\Cpf.ts">
+        <metrics statements="21" coveredstatements="21" conditionals="7" coveredconditionals="6" methods="8" coveredmethods="8"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="5" count="34" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="27" type="stmt"/>
+        <line num="10" count="60" type="stmt"/>
+        <line num="11" count="60" type="stmt"/>
+        <line num="12" count="660" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="60" type="stmt"/>
+        <line num="15" count="60" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="34" type="stmt"/>
+        <line num="23" count="34" type="stmt"/>
+        <line num="27" count="82" type="stmt"/>
+        <line num="31" count="30" type="stmt"/>
+        <line num="35" count="34" type="cond" truecount="0" falsecount="1"/>
+        <line num="36" count="34" type="stmt"/>
+        <line num="37" count="34" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="32" type="cond" truecount="1" falsecount="0"/>
+        <line num="39" count="30" type="stmt"/>
+        <line num="40" count="30" type="stmt"/>
+        <line num="41" count="30" type="stmt"/>
+        <line num="42" count="30" type="stmt"/>
+        <line num="43" count="30" type="stmt"/>
+      </file>
+      <file name="CurrencyTable.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\domain\entity\CurrencyTable.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="5" count="26" type="stmt"/>
+        <line num="11" count="18" type="stmt"/>
+        <line num="15" count="64" type="stmt"/>
+      </file>
+      <file name="FreightCalculator.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\domain\entity\FreightCalculator.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="33" type="stmt"/>
+        <line num="6" count="33" type="stmt"/>
+        <line num="7" count="33" type="stmt"/>
+        <line num="8" count="33" type="stmt"/>
+      </file>
+      <file name="Item.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\domain\entity\Item.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="40" type="stmt"/>
+      </file>
+      <file name="Order.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\domain\entity\Order.ts">
+        <metrics statements="23" coveredstatements="23" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="6"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="13" count="26" type="stmt"/>
+        <line num="15" count="26" type="cond" truecount="3" falsecount="0"/>
+        <line num="16" count="26" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="26" type="stmt"/>
+        <line num="18" count="26" type="stmt"/>
+        <line num="19" count="24" type="stmt"/>
+        <line num="24" count="38" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="36" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="34" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="35" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="39" count="31" type="stmt"/>
+        <line num="40" count="31" type="stmt"/>
+        <line num="41" count="64" type="stmt"/>
+        <line num="43" count="31" type="stmt"/>
+        <line num="44" count="31" type="cond" truecount="1" falsecount="0"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="47" count="31" type="stmt"/>
+      </file>
+      <file name="Product.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\domain\entity\Product.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="cond" truecount="5" falsecount="0"/>
+        <line num="8" count="33" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.cli">
+      <metrics statements="20" coveredstatements="19" conditionals="1" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <file name="CLIController.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\infra\cli\CLIController.ts">
+        <metrics statements="13" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+      <file name="CLIHandler.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\infra\cli\CLIHandler.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="cond" truecount="0" falsecount="1"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.database">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="PgPromiseAdapter.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\infra\database\PgPromiseAdapter.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="8" count="19" type="stmt"/>
+        <line num="11" count="95" type="stmt"/>
+        <line num="14" count="19" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.gateway">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="CurrencyGatewayHttp.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\infra\gateway\CurrencyGatewayHttp.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="16" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="12" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.http">
+      <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="AxiosAdapter.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\infra\http\AxiosAdapter.ts">
+        <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="7" count="14" type="stmt"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.repository">
+      <metrics statements="25" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+      <file name="CouponRepositoryDatabase.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\infra\repository\CouponRepositoryDatabase.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="18" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+      </file>
+      <file name="OrderRespositoryDatabase.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\infra\repository\OrderRespositoryDatabase.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="16" type="stmt"/>
+        <line num="12" count="13" type="stmt"/>
+        <line num="13" count="13" type="stmt"/>
+        <line num="14" count="26" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="29" count="16" type="stmt"/>
+        <line num="30" count="16" type="stmt"/>
+      </file>
+      <file name="ProductRepositoryDatabase.ts" path="C:\Users\sousa\Dev\cursos\cccat10_1\src\infra\repository\ProductRepositoryDatabase.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="17" type="stmt"/>
+        <line num="11" count="31" type="stmt"/>
+        <line num="12" count="31" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
